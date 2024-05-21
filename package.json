@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_project",
+  "version": "1.0.0",
+  "description": "NodeJS API Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "RestAPI"
+  ],
+  "author": "Mina Tsai",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
