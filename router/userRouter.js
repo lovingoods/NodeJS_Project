@@ -1,5 +1,4 @@
 const express = require("express");
-const { hostname } = require("os");
 const router = express.Router();
 
 router.get("/", (req, res, next)=> {
